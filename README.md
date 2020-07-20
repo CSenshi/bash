@@ -1,7 +1,7 @@
 # bash
 Useful Bash commands collection
 
-* `~/.bash_aliases`
+* Aliases in `~/.bash_aliases` file
   ```bash
   alias update='sudo apt update -y'
   alias upgrade='sudo apt upgrade -y'
