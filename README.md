@@ -18,3 +18,11 @@ Useful Bash commands collection
   alias open='xdg-open'
   ```
   
+* Find and replace all occurance of given string in all files of directory (recursively).
+
+   * str1 - to replace
+
+   * str2 - to be replaces with
+    ```bash
+    find . -type f -name "*" -print0 | xargs -0 sed -i '' -e 's/str1/str2/g'
+    ```
