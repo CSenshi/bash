@@ -26,3 +26,12 @@ Useful Bash commands collection
     ```bash
     find . -type f -name "*" -print0 | xargs -0 sed -i '' -e 's/str1/str2/g'
     ```
+
+* Count lines of all files in directory (recursively)
+  ```bash
+  find . -name '*' | xargs wc -l
+  ```
+  *Note: git can make project bigger, grep ames that wont have git in it*
+  ```bash
+  find . -name '*' | grep -v git | xargs wc -l
+  ```
