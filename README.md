@@ -17,9 +17,9 @@ Useful Bash commands collection
 
   alias open='xdg-open'
   ```
-*  [.bashrc](`~/.bashrc`)
+*  [~/.bashrc](.bashrc)
 
-*  [.vimrc](`~/.vimrc`)
+*  [~/.vimrc](.vimrc)
 
 * Find and replace all occurance of given string in all files of directory (recursively).
 
